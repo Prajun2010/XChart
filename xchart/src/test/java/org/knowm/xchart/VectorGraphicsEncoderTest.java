@@ -13,7 +13,7 @@ public class VectorGraphicsEncoderTest {
     for (VectorGraphicsFormat format : VectorGraphicsFormat.values()) {
 
       // test -> test.svg
-      assertThat(VectorGraphicsEncoder.addFileExtension("test", format))
+      assertThat(VectorGraphicsEncoder.addFileExtension("org/xchart/testng", format))
           .isEqualTo(String.format("test.%s", format.toString().toLowerCase()));
 
       // test.svg -> test.svg
