@@ -7,20 +7,7 @@ import org.testng.annotations.*;
 
 public class XYSeriesTest {
 
-    @BeforeSuite
-    public void setUpBeforeSuite() {
-        // Code to run before the test suite
-    }
 
-    @BeforeClass
-    public void setUpBeforeClass() {
-        // Code to run before the test class
-    }
-
-    @BeforeTest
-    public void setUpBeforeTest() {
-        // Code to run before each test method
-    }
 
     @Test(groups = {"constructor"})
     public void testConstructorWithNameAndData() {
@@ -196,18 +183,5 @@ public class XYSeriesTest {
         Assert.assertEquals(series.getXData().length, 0);
     }
 
-    @AfterTest
-    public void tearDownAfterTest() {
-        // Code to run after each test method
-    }
 
-    @AfterClass
-    public void tearDownAfterClass() {
-        // Code to run after the test class
-    }
-
-    @AfterSuite
-    public void tearDownAfterSuite() {
-        // Code to run after the test suite
-    }
 }
