@@ -4,8 +4,8 @@ import org.knowm.xchart.internal.ChartBuilder;
 
 public class XYChartBuilder extends ChartBuilder<XYChartBuilder, XYChart> {
 
-  String xAxisTitle = "";
-  String yAxisTitle = "";
+  public String xAxisTitle = "";
+  public String yAxisTitle = "";
 
   public XYChartBuilder() {}
 
