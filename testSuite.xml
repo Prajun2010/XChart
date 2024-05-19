@@ -4,7 +4,11 @@
     <test name="XCharTest">
         <packages>
             <package name="org.xchart.testng"/>
+            <package name="org.xchart.testng.custom"/>
+            <package name="org.xchart.testng.series"/>
+            <package name="org.xchart.testng.internal"/>
         </packages>
+
     </test>
 
 </suite>

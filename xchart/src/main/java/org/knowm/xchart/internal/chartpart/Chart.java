@@ -67,10 +67,10 @@ public abstract class Chart<ST extends Styler, S extends Series> {
 
     // paint chart main background
     g.setRenderingHint(
-        RenderingHints.KEY_ANTIALIASING,
-        styler.getAntiAlias()
-            ? RenderingHints.VALUE_ANTIALIAS_ON
-            : RenderingHints.VALUE_ANTIALIAS_OFF); // global rendering hint
+            RenderingHints.KEY_ANTIALIASING,
+            styler.getAntiAlias()
+                    ? RenderingHints.VALUE_ANTIALIAS_ON
+                    : RenderingHints.VALUE_ANTIALIAS_OFF); // global rendering hint
     g.setColor(styler.getChartBackgroundColor());
     Shape rect = new Rectangle2D.Double(0, 0, getWidth(), getHeight());
     g.fill(rect);
