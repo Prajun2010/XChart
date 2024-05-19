@@ -195,6 +195,4 @@ public class OHLCChartBuilderTest {
         assertEquals(chart.getXAxisTitle(), specialTitle);
         assertEquals(chart.getYAxisTitle(), specialTitle);
     }
-
-
 }
